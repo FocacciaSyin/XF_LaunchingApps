@@ -3,3 +3,10 @@
 ################################################################################
 
 /XF_LaunchingApps/XF_LaunchingApps/XF_LaunchingApps/obj
+/XF_LaunchingApps/XF_LaunchingApps/XF_LaunchingApps/bin/Debug/netstandard2.0
+/XF_LaunchingApps/XF_LaunchingApps/XF_LaunchingApps.Android/bin/Debug
+/XF_LaunchingApps/XF_LaunchingApps/XF_LaunchingApps.Android/obj
+/XF_LaunchingApps/XF_LaunchingApps/XF_LaunchingApps.UWP/bin/x86/Debug
+/XF_LaunchingApps/XF_LaunchingApps/XF_LaunchingApps.UWP/obj
+/.vs
+/XF_LaunchingApps/.vs/XF_LaunchingApps

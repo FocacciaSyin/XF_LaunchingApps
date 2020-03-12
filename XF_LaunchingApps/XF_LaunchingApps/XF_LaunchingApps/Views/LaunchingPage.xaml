@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XF_LaunchingApps.Views.LaunchingPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="http://prismlibrary.com"
+    Title="{Binding Title}"
+    prism:ViewModelLocator.AutowireViewModel="True">
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Xamarin Forms and Prism!" />
+        <Button
+            Margin="20"
+            BackgroundColor="Coral"
+            Clicked="Button_Clicked"
+            HorizontalOptions="CenterAndExpand"
+            Text="Open FaceBook"
+            TextColor="White"
+            VerticalOptions="CenterAndExpand" />
+        <Button Command="{Binding NavigateCommand}" Text="Go back to MainPage" />
+    </StackLayout>
+</ContentPage>
